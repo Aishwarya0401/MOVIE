@@ -10,7 +10,7 @@ public class CreateNewTable {
 
     public static void NewTable() {
       
-        String url = "jdbc:sqlite:C://sqlite/db/movies.db";
+        String url = "jdbc:sqlite:C://sqlite/db/MOVIE.db";
         
         
         String sql = "CREATE TABLE IF NOT EXISTS Movies (\n"
