@@ -11,7 +11,7 @@ public class InsertData {
    
     private Connection connect() {
         
-        String url = "jdbc:sqlite:D://sqlite/db/movies.db";
+        String url = "jdbc:sqlite:D://sqlite/db/MOVIE.db";
         Connection conn = null;
         try {
             conn = DriverManager.getConnection(url);
